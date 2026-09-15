@@ -1,46 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
   <title id="title">Unes Jami — AI Automation Engineer</title>
-  <desc id="desc">Minimal white banner with animated blue particles and curved black connections.</desc>
+  <desc id="desc">Minimal white banner with mirrored animated blue particle networks.</desc>
   <defs>
     <radialGradient id="glow">
-      <stop offset="0" stop-color="#0ea5e9" stop-opacity=".16"/>
+      <stop offset="0" stop-color="#0ea5e9" stop-opacity=".14"/>
       <stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/>
     </radialGradient>
-    <filter id="soft"><feGaussianBlur stdDeviation="2.4"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <g id="network">
+      <g fill="none" stroke="#111827" stroke-width="1.1" stroke-linecap="round" stroke-opacity=".24">
+        <path d="M24 64 C82 26 118 108 178 84 S260 42 326 86 S396 154 344 190 S222 170 142 224 S70 254 26 268"/>
+        <path d="M46 238 C112 190 162 230 226 210 S310 224 388 262"/>
+      </g>
+      <g fill="#0ea5e9">
+        <circle cx="24" cy="64" r="3"><animate attributeName="opacity" values=".25;1;.25" dur="4.2s" repeatCount="indefinite"/></circle>
+        <circle cx="118" cy="91" r="4.5"><animate attributeName="r" values="3.5;6;3.5" dur="4.8s" repeatCount="indefinite"/></circle>
+        <circle cx="178" cy="84" r="3"/>
+        <circle cx="252" cy="59" r="4"/>
+        <circle cx="326" cy="86" r="5"><animate attributeName="opacity" values=".35;1;.35" dur="5.1s" repeatCount="indefinite"/></circle>
+        <circle cx="382" cy="140" r="3"/>
+        <circle cx="344" cy="190" r="4.5"/>
+        <circle cx="258" cy="188" r="3"/>
+        <circle cx="142" cy="224" r="5"><animate attributeName="r" values="4;6.5;4" dur="5.4s" repeatCount="indefinite"/></circle>
+        <circle cx="70" cy="254" r="3"/>
+        <circle cx="226" cy="210" r="3.5"/>
+        <circle cx="388" cy="262" r="4"/>
+      </g>
+      <g fill="#38bdf8" filter="url(#soft)">
+        <circle r="3"><animateMotion dur="10s" repeatCount="indefinite" path="M24 64 C82 26 118 108 178 84 S260 42 326 86 S396 154 344 190 S222 170 142 224 S70 254 26 268"/></circle>
+        <circle r="2.5"><animateMotion dur="8.5s" repeatCount="indefinite" path="M46 238 C112 190 162 230 226 210 S310 224 388 262"/></circle>
+      </g>
+    </g>
   </defs>
+
   <rect width="1200" height="300" rx="18" fill="#ffffff"/>
-  <rect x="1" y="1" width="1198" height="298" rx="17" fill="none" stroke="#111827" stroke-opacity=".15"/>
-  <ellipse cx="600" cy="150" rx="390" ry="190" fill="url(#glow)"/>
+  <rect x="1" y="1" width="1198" height="298" rx="17" fill="none" stroke="#111827" stroke-opacity=".12"/>
+  <ellipse cx="600" cy="150" rx="370" ry="175" fill="url(#glow)"/>
 
-  <g fill="none" stroke="#111827" stroke-width="1.1" stroke-linecap="round" stroke-opacity=".22">
-    <path d="M22 62 C90 18 126 120 196 82 S286 38 354 92 S402 174 326 207 S190 165 102 238"/>
-    <path d="M846 72 C918 18 968 116 1038 77 S1128 64 1176 124 C1200 158 1132 176 1080 210 S966 180 884 240"/>
-    <path d="M18 264 C94 210 150 248 220 224 S304 240 390 274"/>
-    <path d="M810 270 C890 220 940 246 1010 222 S1106 230 1186 266"/>
-  </g>
+  <use href="#network"/>
+  <use href="#network" transform="translate(1200 0) scale(-1 1)"/>
 
-  <g fill="#0ea5e9">
-    <circle cx="22" cy="62" r="3"><animate attributeName="opacity" values=".25;1;.25" dur="4s" repeatCount="indefinite"/></circle>
-    <circle cx="126" cy="90" r="5"><animate attributeName="r" values="4;6.5;4" dur="4.8s" repeatCount="indefinite"/></circle>
-    <circle cx="196" cy="82" r="3.5"/><circle cx="278" cy="58" r="4"/>
-    <circle cx="354" cy="92" r="5"><animate attributeName="r" values="4;7;4" dur="5.1s" repeatCount="indefinite"/></circle>
-    <circle cx="384" cy="152" r="3"/><circle cx="326" cy="207" r="4.5"/>
-    <circle cx="220" cy="187" r="3.5"/><circle cx="102" cy="238" r="5"><animate attributeName="opacity" values=".3;1;.3" dur="5.4s" repeatCount="indefinite"/></circle>
-    <circle cx="846" cy="72" r="4"/><circle cx="934" cy="66" r="3"/>
-    <circle cx="1038" cy="77" r="5"><animate attributeName="r" values="4;7;4" dur="4.2s" repeatCount="indefinite"/></circle>
-    <circle cx="1122" cy="86" r="3.5"/><circle cx="1176" cy="124" r="4.5"/>
-    <circle cx="1128" cy="174" r="3"/><circle cx="1080" cy="210" r="5"><animate attributeName="opacity" values=".3;1;.3" dur="4.9s" repeatCount="indefinite"/></circle>
-    <circle cx="984" cy="194" r="3.5"/><circle cx="884" cy="240" r="4.5"/>
-  </g>
-
-  <g fill="#38bdf8" filter="url(#soft)">
-    <circle r="3"><animateMotion dur="9s" repeatCount="indefinite" path="M22 62 C90 18 126 120 196 82 S286 38 354 92 S402 174 326 207 S190 165 102 238"/></circle>
-    <circle r="3"><animateMotion dur="11s" repeatCount="indefinite" path="M846 72 C918 18 968 116 1038 77 S1128 64 1176 124 C1200 158 1132 176 1080 210 S966 180 884 240"/></circle>
-    <circle r="2.5"><animateMotion dur="8s" repeatCount="indefinite" path="M18 264 C94 210 150 248 220 224 S304 240 390 274"/></circle>
-    <circle r="2.5"><animateMotion dur="10s" repeatCount="indefinite" path="M810 270 C890 220 940 246 1010 222 S1106 230 1186 266"/></circle>
-  </g>
-
-  <g text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif">
+  <g text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif">
     <text x="600" y="126" fill="#111827" font-size="53" font-weight="700">Unes Jami</text>
     <text x="600" y="174" fill="#0284c7" font-size="24" font-weight="600">AI Automation Engineer</text>
     <text x="600" y="215" fill="#4b5563" font-size="17">Building Intelligent Workflows &amp; AI-Powered Digital Solutions</text>
