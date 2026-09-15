@@ -7,10 +7,12 @@
 <p align="center"><strong>Personal accounts</strong></p>
 
 <p align="center">
-  <a href="https://t.me/unesjami"><img src="https://img.shields.io/badge/Telegram_Message_Me-0B1F3A?style=for-the-badge&logo=telegram&logoColor=white" alt="Message me on Telegram"></a>
-  <a href="https://www.linkedin.com/in/unesjami"><img src="https://img.shields.io/badge/LinkedIn_Connect-0B1F3A?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"></a>
-  <a href="mailto:unesjami2020@gmail.com"><img src="https://img.shields.io/badge/Gmail_Contact-0B1F3A?style=for-the-badge&logo=gmail&logoColor=white" alt="Send email"></a>
-  <a href="https://github.com/unesjami?tab=followers"><img src="https://img.shields.io/github/followers/unesjami?style=for-the-badge&logo=github&logoColor=white&label=Follow&labelColor=0B1F3A&color=0B1F3A" alt="Follow on GitHub"></a>
+  <a href="https://t.me/unesjami"><img src="https://img.shields.io/badge/Telegram-0B1F3A?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a>
+  <a href="https://www.linkedin.com/in/unesjami"><img src="https://img.shields.io/badge/LinkedIn-0B1F3A?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.facebook.com/unes.jami.2025/"><img src="https://img.shields.io/badge/Facebook-0B1F3A?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"></a>
+  <a href="https://www.instagram.com/unesjami2007"><img src="https://img.shields.io/badge/Instagram-0B1F3A?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
+  <a href="mailto:unesjami2020@gmail.com"><img src="https://img.shields.io/badge/Email-0B1F3A?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://github.com/unesjami"><img src="https://img.shields.io/badge/GitHub-0B1F3A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
 </p>
 
 <p align="center"><strong>Featured products</strong></p>
