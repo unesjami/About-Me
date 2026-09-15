@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub project analytics</title>
+  <desc id="desc">Two clean donut charts with rounded segment ends for repository languages and project focus.</desc>
+  <rect width="1000" height="320" fill="#ffffff"/>
+
+  <g font-family="'Segoe UI',Arial,sans-serif">
+    <g transform="translate(40 22)">
+      <text x="210" y="28" text-anchor="middle" fill="#111827" font-size="21" font-weight="700">Repository Languages</text>
+      <g transform="translate(132 150) rotate(-90)" fill="none" stroke-width="24" stroke-linecap="round" pathLength="100">
+        <circle r="72" stroke="#f1f5f9"/>
+        <circle r="72" stroke="#f43f72" pathLength="100" stroke-dasharray="38 62" stroke-dashoffset="0"/>
+        <circle r="72" stroke="#f4511e" pathLength="100" stroke-dasharray="38 62" stroke-dashoffset="-40"/>
+        <circle r="72" stroke="#2878a5" pathLength="100" stroke-dasharray="18 82" stroke-dashoffset="-80"/>
+      </g>
+      <circle cx="310" cy="108" r="6" fill="#f43f72"/><text x="326" y="114" fill="#334155" font-size="16">C++ · 40%</text>
+      <circle cx="310" cy="153" r="6" fill="#f4511e"/><text x="326" y="159" fill="#334155" font-size="16">HTML · 40%</text>
+      <circle cx="310" cy="198" r="6" fill="#2878a5"/><text x="326" y="204" fill="#334155" font-size="16">Python · 20%</text>
+    </g>
+
+    <g transform="translate(520 22)">
+      <text x="210" y="28" text-anchor="middle" fill="#111827" font-size="21" font-weight="700">Project Focus</text>
+      <g transform="translate(132 150) rotate(-90)" fill="none" stroke-width="24" stroke-linecap="round">
+        <circle r="72" stroke="#f1f5f9"/>
+        <circle r="72" stroke="#0ea5e9" pathLength="100" stroke-dasharray="48 52" stroke-dashoffset="0"/>
+        <circle r="72" stroke="#7c3aed" pathLength="100" stroke-dasharray="23 77" stroke-dashoffset="-50"/>
+        <circle r="72" stroke="#14b8a6" pathLength="100" stroke-dasharray="23 77" stroke-dashoffset="-75"/>
+      </g>
+      <circle cx="310" cy="108" r="6" fill="#0ea5e9"/><text x="326" y="114" fill="#334155" font-size="16">Automation · 50%</text>
+      <circle cx="310" cy="153" r="6" fill="#7c3aed"/><text x="326" y="159" fill="#334155" font-size="16">Robotics · 25%</text>
+      <circle cx="310" cy="198" r="6" fill="#14b8a6"/><text x="326" y="204" fill="#334155" font-size="16">Web · 25%</text>
+    </g>
+  </g>
+</svg>
