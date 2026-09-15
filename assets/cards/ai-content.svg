@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="145" viewBox="0 0 560 145" role="img" aria-label="AI Content Automation">
+  <rect x="1" y="1" width="558" height="143" rx="16" fill="#ffffff" stroke="#d0d7de"/>
+  <rect x="1" y="1" width="7" height="143" rx="4" fill="#7c3aed"/>
+  <circle cx="53" cy="49" r="25" fill="#7c3aed" opacity=".11"/>
+  <g transform="translate(35 31)" fill="none" stroke="#7c3aed" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="19" cy="19" r="5"/><circle cx="5" cy="8" r="3"/><circle cx="33" cy="8" r="3"/><circle cx="5" cy="32" r="3"/><circle cx="33" cy="32" r="3"/><path d="M8 10l7 6M30 10l-7 6M8 30l7-7M30 30l-7-7"/></g>
+  <text x="91" y="39" fill="#7c3aed" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">AI & AUTOMATION</text>
+  <text x="91" y="67" fill="#1f2328" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="700">AI Content Automation</text>
+  <text x="28" y="105" fill="#57606a" font-family="Segoe UI,Arial,sans-serif" font-size="13">Gemini captions and automated Telegram publishing.</text>
+  <circle cx="522" cy="38" r="5" fill="#7c3aed"/>
+  <path d="M500 119h28M521 112l8 7-8 7" fill="none" stroke="#7c3aed" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
