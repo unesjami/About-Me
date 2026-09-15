@@ -9,16 +9,16 @@
 <p align="center">
   <a href="https://t.me/unesjami"><img src="https://img.shields.io/badge/Telegram-Message_Me-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Message me on Telegram"></a>
   <a href="https://www.linkedin.com/in/unesjami"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"></a>
-  <a href="mailto:unesjami2020@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Send email"></a>
+  <a href="mailto:unesjami2020@gmail.com"><img src="https://img.shields.io/badge/Gmail-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Send email"></a>
   <a href="https://github.com/unesjami?tab=followers"><img src="https://img.shields.io/github/followers/unesjami?style=for-the-badge&logo=github&label=Follow" alt="Follow on GitHub"></a>
 </p>
 
-<p align="center"><strong>Projects & products</strong></p>
+<p align="center"><strong>Featured products</strong></p>
 
 <p align="center">
-  <a href="https://t.me/PostOptimizeBot"><img src="https://img.shields.io/badge/Launch-Post_Optimizer-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Launch Post Optimizer"></a>
-  <a href="https://unesjami.github.io/TimeOS/"><img src="https://img.shields.io/badge/Open-TimeOS-2563EB?style=for-the-badge&logo=githubpages&logoColor=white" alt="Open TimeOS"></a>
-  <a href="https://unesjami.github.io/Word-Update/"><img src="https://img.shields.io/badge/Open-WordFlow-14B8A6?style=for-the-badge&logo=githubpages&logoColor=white" alt="Open WordFlow"></a>
+  <a href="https://t.me/PostOptimizeBot"><img src="https://img.shields.io/badge/Post_Optimizer-Launch-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Launch Post Optimizer"></a>
+  <a href="https://unesjami.github.io/TimeOS/"><img src="https://img.shields.io/badge/TimeOS-Live-2563EB?style=for-the-badge&logo=githubpages&logoColor=white" alt="Open TimeOS"></a>
+  <a href="https://unesjami.github.io/Word-Update/"><img src="https://img.shields.io/badge/WordFlow-Live-14B8A6?style=for-the-badge&logo=githubpages&logoColor=white" alt="Open WordFlow"></a>
 </p>
 
 ## About Me
@@ -46,8 +46,7 @@ unes = {
 </p>
 
 <p align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=unesjami&theme=github" alt="Top languages by repository">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=unesjami&theme=github" alt="Top languages by commit">
+  <img width="98%" src="./assets/analytics.svg" alt="Rounded language and project-focus analytics">
 </p>
 
 ## Technology Stack
@@ -59,7 +58,7 @@ unes = {
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=google-gemini&logoColor=white" alt="Gemini API">
+  <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini API">
   <img src="https://img.shields.io/badge/Telegram_Bot_API-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram Bot API">
   <img src="https://img.shields.io/badge/REST_APIs-0F172A?style=flat-square&logo=fastapi&logoColor=white" alt="REST APIs">
   <img src="https://img.shields.io/badge/Render-000000?style=flat-square&logo=render&logoColor=white" alt="Render">
@@ -80,38 +79,36 @@ unes = {
   <img src="https://skillicons.dev/icons?i=html,css,js,react,vscode" alt="Web and development tools">
 </p>
 
-## Projects
+## Projects by Category
 
-<p align="center"><strong>Telegram Systems & AI Automation</strong></p>
+<h3 align="center">Telegram Systems & AI Automation</h3>
 
-<table>
-<tr>
-<td width="50%"><a href="https://t.me/PostOptimizeBot"><img src="./assets/cards/post-optimizer.svg" width="100%" alt="Post Optimizer Bot"></a></td>
-<td width="50%"><img src="./assets/cards/faranovin-support.svg" width="100%" alt="Faranovin Support Bot"></td>
-</tr>
-<tr>
-<td width="50%"><img src="./assets/cards/karyar-admin.svg" width="100%" alt="KARYAR Admin Bot"></td>
-<td width="50%"><a href="https://github.com/unesjami/AI-Powered-Content-Automation"><img src="./assets/cards/ai-content.svg" width="100%" alt="AI Content Automation"></a></td>
-</tr>
-</table>
+<p align="center">
+  <a href="https://t.me/PostOptimizeBot"><img src="https://img.shields.io/badge/Post_Optimizer_Bot-Launch-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Post Optimizer Bot"></a>
+  <img src="https://img.shields.io/badge/Faranovin_Support-Private-6D5DFB?style=for-the-badge&logo=telegram&logoColor=white" alt="Faranovin Support Bot">
+  <img src="https://img.shields.io/badge/KARYAR_Admin-Private-0F8B8D?style=for-the-badge&logo=telegram&logoColor=white" alt="KARYAR Admin Bot">
+  <a href="https://github.com/unesjami/AI-Powered-Content-Automation"><img src="https://img.shields.io/badge/AI_Content_Automation-Repository-7C3AED?style=for-the-badge&logo=googlegemini&logoColor=white" alt="AI Content Automation"></a>
+</p>
 
-<p align="center"><strong>Robotics & Embedded Systems</strong></p>
+<p align="center"><sub>Publishing automation · bilingual support · community management · AI-assisted content</sub></p>
 
-<table>
-<tr>
-<td width="50%"><a href="https://github.com/unesjami/Gesture-Interaction-Robot-GIR-"><img src="./assets/cards/gir.svg" width="100%" alt="Gesture Interaction Robot"></a></td>
-<td width="50%"><a href="https://github.com/unesjami/Bluetooth-Controlled-Arduino-Car"><img src="./assets/cards/bluetooth-car.svg" width="100%" alt="Bluetooth Arduino Car"></a></td>
-</tr>
-</table>
+<h3 align="center">Robotics & Embedded Systems</h3>
 
-<p align="center"><strong>Web Applications</strong></p>
+<p align="center">
+  <a href="https://github.com/unesjami/Gesture-Interaction-Robot-GIR-"><img src="https://img.shields.io/badge/Gesture_Interaction_Robot-Explore-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Gesture Interaction Robot"></a>
+  <a href="https://github.com/unesjami/Bluetooth-Controlled-Arduino-Car"><img src="https://img.shields.io/badge/Bluetooth_Arduino_Car-Explore-0082FC?style=for-the-badge&logo=bluetooth&logoColor=white" alt="Bluetooth Arduino Car"></a>
+</p>
 
-<table>
-<tr>
-<td width="50%"><a href="https://unesjami.github.io/TimeOS/"><img src="./assets/cards/timeos.svg" width="100%" alt="TimeOS"></a></td>
-<td width="50%"><a href="https://unesjami.github.io/Word-Update/"><img src="./assets/cards/wordflow.svg" width="100%" alt="WordFlow"></a></td>
-</tr>
-</table>
+<p align="center"><sub>Computer vision · gesture control · Arduino · embedded electronics</sub></p>
+
+<h3 align="center">Web Applications</h3>
+
+<p align="center">
+  <a href="https://unesjami.github.io/TimeOS/"><img src="https://img.shields.io/badge/TimeOS-Live_Demo-61DAFB?style=for-the-badge&logo=react&logoColor=0F172A" alt="TimeOS"></a>
+  <a href="https://unesjami.github.io/Word-Update/"><img src="https://img.shields.io/badge/WordFlow-Live_Demo-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="WordFlow"></a>
+</p>
+
+<p align="center"><sub>Time management · bilingual vocabulary learning · responsive web experiences</sub></p>
 
 ## Current Direction
 
@@ -120,6 +117,4 @@ unes = {
 - Connecting computer vision with embedded robotic systems
 - Growing **Faranovin** into a home for useful intelligent products
 
-<p align="center">
-  <strong>Build. Automate. Evolve.</strong>
-</p>
+<p align="center"><strong>Build. Automate. Evolve.</strong></p>
