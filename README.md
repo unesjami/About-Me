@@ -7,18 +7,18 @@
 <p align="center"><strong>Personal accounts</strong></p>
 
 <p align="center">
-  <a href="https://t.me/unesjami"><img src="https://img.shields.io/badge/Telegram-Message_Me-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Message me on Telegram"></a>
-  <a href="https://www.linkedin.com/in/unesjami"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"></a>
-  <a href="mailto:unesjami2020@gmail.com"><img src="https://img.shields.io/badge/Gmail-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Send email"></a>
-  <a href="https://github.com/unesjami?tab=followers"><img src="https://img.shields.io/github/followers/unesjami?style=for-the-badge&logo=github&label=Follow" alt="Follow on GitHub"></a>
+  <a href="https://t.me/unesjami"><img src="https://img.shields.io/badge/Telegram_Message_Me-0B1F3A?style=for-the-badge&logo=telegram&logoColor=white" alt="Message me on Telegram"></a>
+  <a href="https://www.linkedin.com/in/unesjami"><img src="https://img.shields.io/badge/LinkedIn_Connect-0B1F3A?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"></a>
+  <a href="mailto:unesjami2020@gmail.com"><img src="https://img.shields.io/badge/Gmail_Contact-0B1F3A?style=for-the-badge&logo=gmail&logoColor=white" alt="Send email"></a>
+  <a href="https://github.com/unesjami?tab=followers"><img src="https://img.shields.io/github/followers/unesjami?style=for-the-badge&logo=github&logoColor=white&label=Follow&labelColor=0B1F3A&color=0B1F3A" alt="Follow on GitHub"></a>
 </p>
 
 <p align="center"><strong>Featured products</strong></p>
 
 <p align="center">
-  <a href="https://t.me/PostOptimizeBot"><img src="https://img.shields.io/badge/Post_Optimizer-Launch-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Launch Post Optimizer"></a>
-  <a href="https://unesjami.github.io/TimeOS/"><img src="https://img.shields.io/badge/TimeOS-Live-2563EB?style=for-the-badge&logo=githubpages&logoColor=white" alt="Open TimeOS"></a>
-  <a href="https://unesjami.github.io/Word-Update/"><img src="https://img.shields.io/badge/WordFlow-Live-14B8A6?style=for-the-badge&logo=githubpages&logoColor=white" alt="Open WordFlow"></a>
+  <a href="https://t.me/PostOptimizeBot"><img src="https://img.shields.io/badge/Post_Optimizer-Launch-168BFF?style=for-the-badge&logo=telegram&logoColor=white" alt="Launch Post Optimizer"></a>
+  <a href="https://unesjami.github.io/TimeOS/"><img src="https://img.shields.io/badge/TimeOS-Live-168BFF?style=for-the-badge&logo=githubpages&logoColor=white" alt="Open TimeOS"></a>
+  <a href="https://unesjami.github.io/Word-Update/"><img src="https://img.shields.io/badge/WordFlow-Live-168BFF?style=for-the-badge&logo=githubpages&logoColor=white" alt="Open WordFlow"></a>
 </p>
 
 ## About Me
@@ -42,11 +42,7 @@ unes = {
 ## GitHub Activity
 
 <p align="center">
-  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=unesjami&theme=github" alt="GitHub contribution overview">
-</p>
-
-<p align="center">
-  <img width="98%" src="./assets/analytics.svg" alt="Rounded language and project-focus analytics">
+  <img width="100%" src="./assets/analytics.svg" alt="GitHub activity, repository languages and project focus">
 </p>
 
 ## Technology Stack
@@ -81,34 +77,42 @@ unes = {
 
 ## Projects by Category
 
-<h3 align="center">Telegram Systems & AI Automation</h3>
+<table>
+<tr>
+<td width="33%" align="center" valign="top">
 
-<p align="center">
-  <a href="https://t.me/PostOptimizeBot"><img src="https://img.shields.io/badge/Post_Optimizer_Bot-Launch-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Post Optimizer Bot"></a>
-  <img src="https://img.shields.io/badge/Faranovin_Support-Private-6D5DFB?style=for-the-badge&logo=telegram&logoColor=white" alt="Faranovin Support Bot">
-  <img src="https://img.shields.io/badge/KARYAR_Admin-Private-0F8B8D?style=for-the-badge&logo=telegram&logoColor=white" alt="KARYAR Admin Bot">
-  <a href="https://github.com/unesjami/AI-Powered-Content-Automation"><img src="https://img.shields.io/badge/AI_Content_Automation-Repository-7C3AED?style=for-the-badge&logo=googlegemini&logoColor=white" alt="AI Content Automation"></a>
-</p>
+### Telegram & AI
 
-<p align="center"><sub>Publishing automation · bilingual support · community management · AI-assisted content</sub></p>
+<a href="https://t.me/PostOptimizeBot"><img src="https://img.shields.io/badge/Post_Optimizer-Launch-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Post Optimizer Bot"></a><br>
+<img src="https://img.shields.io/badge/Faranovin_Support-Private-635BFF?style=for-the-badge&logo=telegram&logoColor=white" alt="Faranovin Support Bot"><br>
+<img src="https://img.shields.io/badge/KARYAR_Admin-Private-0F8B8D?style=for-the-badge&logo=telegram&logoColor=white" alt="KARYAR Admin Bot"><br>
+<a href="https://github.com/unesjami/AI-Powered-Content-Automation"><img src="https://img.shields.io/badge/AI_Content-Repository-7C3AED?style=for-the-badge&logo=googlegemini&logoColor=white" alt="AI Content Automation"></a>
 
-<h3 align="center">Robotics & Embedded Systems</h3>
+<sub>Publishing, support, moderation and AI-assisted content.</sub>
 
-<p align="center">
-  <a href="https://github.com/unesjami/Gesture-Interaction-Robot-GIR-"><img src="https://img.shields.io/badge/Gesture_Interaction_Robot-Explore-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Gesture Interaction Robot"></a>
-  <a href="https://github.com/unesjami/Bluetooth-Controlled-Arduino-Car"><img src="https://img.shields.io/badge/Bluetooth_Arduino_Car-Explore-0082FC?style=for-the-badge&logo=bluetooth&logoColor=white" alt="Bluetooth Arduino Car"></a>
-</p>
+</td>
+<td width="33%" align="center" valign="top">
 
-<p align="center"><sub>Computer vision · gesture control · Arduino · embedded electronics</sub></p>
+### Robotics
 
-<h3 align="center">Web Applications</h3>
+<a href="https://github.com/unesjami/Gesture-Interaction-Robot-GIR-"><img src="https://img.shields.io/badge/Gesture_Robot-Explore-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Gesture Interaction Robot"></a><br>
+<a href="https://github.com/unesjami/Bluetooth-Controlled-Arduino-Car"><img src="https://img.shields.io/badge/Arduino_Car-Explore-0082FC?style=for-the-badge&logo=bluetooth&logoColor=white" alt="Bluetooth Arduino Car"></a>
 
-<p align="center">
-  <a href="https://unesjami.github.io/TimeOS/"><img src="https://img.shields.io/badge/TimeOS-Live_Demo-61DAFB?style=for-the-badge&logo=react&logoColor=0F172A" alt="TimeOS"></a>
-  <a href="https://unesjami.github.io/Word-Update/"><img src="https://img.shields.io/badge/WordFlow-Live_Demo-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="WordFlow"></a>
-</p>
+<sub>Computer vision, gestures, Arduino and embedded electronics.</sub>
 
-<p align="center"><sub>Time management · bilingual vocabulary learning · responsive web experiences</sub></p>
+</td>
+<td width="33%" align="center" valign="top">
+
+### Web Apps
+
+<a href="https://unesjami.github.io/TimeOS/"><img src="https://img.shields.io/badge/TimeOS-Live_Demo-168BFF?style=for-the-badge&logo=react&logoColor=white" alt="TimeOS"></a><br>
+<a href="https://unesjami.github.io/Word-Update/"><img src="https://img.shields.io/badge/WordFlow-Live_Demo-168BFF?style=for-the-badge&logo=html5&logoColor=white" alt="WordFlow"></a>
+
+<sub>Time management and bilingual learning experiences.</sub>
+
+</td>
+</tr>
+</table>
 
 ## Current Direction
 
