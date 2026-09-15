@@ -21,7 +21,7 @@
   <a href="https://unesjami.github.io/Word-Update/"><img src="https://img.shields.io/badge/Open-WordFlow-14B8A6?style=for-the-badge&logo=githubpages&logoColor=white" alt="Open WordFlow"></a>
 </p>
 
-## About me
+## About Me
 
 I'm **Unes Jami**, an AI Automation Engineer and Mechatronics student building practical systems where software, artificial intelligence, and hardware meet.
 
@@ -39,24 +39,20 @@ unes = {
 }
 ```
 
-## GitHub activity
+## GitHub Activity
 
 <p align="center">
-  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=unesjami&theme=github_dark" alt="GitHub contribution overview">
+  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=unesjami&theme=github" alt="GitHub contribution overview">
 </p>
 
 <p align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=unesjami&theme=github_dark" alt="Top languages by repository">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=unesjami&theme=github_dark" alt="Top languages by commit">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=unesjami&theme=github" alt="Top languages by repository">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=unesjami&theme=github" alt="Top languages by commit">
 </p>
 
-<p align="center">
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=unesjami&theme=github-compact&hide_border=true&bg_color=0D1117&color=8B949E&line=22B8CF&point=67E8F9&area=true&area_color=164E63" alt="Contribution activity graph">
-</p>
+## Technology Stack
 
-## Technology stack
-
-### AI, automation & backend
+<h3 align="center">AI, Automation & Backend</h3>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,fastapi,mongodb,firebase,git,github" alt="Backend and automation tools">
@@ -69,7 +65,7 @@ unes = {
   <img src="https://img.shields.io/badge/Render-000000?style=flat-square&logo=render&logoColor=white" alt="Render">
 </p>
 
-### Robotics, embedded & computer vision
+<h3 align="center">Robotics, Embedded & Computer Vision</h3>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=arduino,cpp,opencv" alt="Robotics and computer vision tools">
@@ -78,81 +74,46 @@ unes = {
   <img src="https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white" alt="KiCad">
 </p>
 
-### Web & development tools
+<h3 align="center">Web & Development Tools</h3>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,react,vscode" alt="Web and development tools">
 </p>
 
-## Projects by category
+## Projects
 
-### Telegram bots
-
-| Project | Purpose | Access |
-|---|---|---|
-| **Post Optimizer Bot** | Builds rich Telegram posts with interactive buttons, reusable actions, voting, files, and scheduling. | [Launch bot](https://t.me/PostOptimizeBot) |
-| **Faranovin Support Bot** | Bilingual support workflow with forum topics, media relay, tracking, and MongoDB persistence. | Private production project |
-| **KARYAR Group Admin Bot** | Community onboarding, rules acceptance, member requirements, link control, and anti-spam moderation. | Private production project |
-
-### AI & automation
-
-#### [AI-Powered Content Automation](https://github.com/unesjami/AI-Powered-Content-Automation)
-
-Analyzes images with Gemini, generates captions, publishes Telegram content, organizes processed media, and sends execution reports.
-
-[![View repository](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github)](https://github.com/unesjami/AI-Powered-Content-Automation)
-
-### Robotics & embedded systems
+<p align="center"><strong>Telegram Systems & AI Automation</strong></p>
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-#### [Gesture Interaction Robot](https://github.com/unesjami/Gesture-Interaction-Robot-GIR-)
-
-A humanoid robot controlled through real-time hand gestures using Python, OpenCV, MediaPipe, Arduino, servos, and audio feedback.
-
-[![Explore GIR](https://img.shields.io/badge/Explore_GIR-164E63?style=for-the-badge&logo=github)](https://github.com/unesjami/Gesture-Interaction-Robot-GIR-)
-
-</td>
-<td width="50%" valign="top">
-
-#### [Bluetooth Arduino Car](https://github.com/unesjami/Bluetooth-Controlled-Arduino-Car)
-
-A robotic car with HC-05 Bluetooth control, Arduino firmware, custom electronics, lights, buzzer, and mobile interaction.
-
-[![View project](https://img.shields.io/badge/View_Project-0E7490?style=for-the-badge&logo=arduino)](https://github.com/unesjami/Bluetooth-Controlled-Arduino-Car)
-
-</td>
+<td width="50%"><a href="https://t.me/PostOptimizeBot"><img src="./assets/cards/post-optimizer.svg" width="100%" alt="Post Optimizer Bot"></a></td>
+<td width="50%"><img src="./assets/cards/faranovin-support.svg" width="100%" alt="Faranovin Support Bot"></td>
+</tr>
+<tr>
+<td width="50%"><img src="./assets/cards/karyar-admin.svg" width="100%" alt="KARYAR Admin Bot"></td>
+<td width="50%"><a href="https://github.com/unesjami/AI-Powered-Content-Automation"><img src="./assets/cards/ai-content.svg" width="100%" alt="AI Content Automation"></a></td>
 </tr>
 </table>
 
-### Web applications
+<p align="center"><strong>Robotics & Embedded Systems</strong></p>
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-#### [TimeOS](https://github.com/unesjami/TimeOS)
-
-A bilingual browser-based planner using React, Firebase, cloud storage, and Gregorian/Solar Hijri date handling.
-
-[![Live demo](https://img.shields.io/badge/Live_Demo-2563EB?style=for-the-badge&logo=githubpages)](https://unesjami.github.io/TimeOS/)
-
-</td>
-<td width="50%" valign="top">
-
-#### [WordFlow](https://github.com/unesjami/Word-Update)
-
-An English–Persian vocabulary trainer with flashcards, voice input, pronunciation, progress tracking, and dark mode.
-
-[![Live demo](https://img.shields.io/badge/Live_Demo-14B8A6?style=for-the-badge&logo=githubpages)](https://unesjami.github.io/Word-Update/)
-
-</td>
+<td width="50%"><a href="https://github.com/unesjami/Gesture-Interaction-Robot-GIR-"><img src="./assets/cards/gir.svg" width="100%" alt="Gesture Interaction Robot"></a></td>
+<td width="50%"><a href="https://github.com/unesjami/Bluetooth-Controlled-Arduino-Car"><img src="./assets/cards/bluetooth-car.svg" width="100%" alt="Bluetooth Arduino Car"></a></td>
 </tr>
 </table>
 
-## Current direction
+<p align="center"><strong>Web Applications</strong></p>
+
+<table>
+<tr>
+<td width="50%"><a href="https://unesjami.github.io/TimeOS/"><img src="./assets/cards/timeos.svg" width="100%" alt="TimeOS"></a></td>
+<td width="50%"><a href="https://unesjami.github.io/Word-Update/"><img src="./assets/cards/wordflow.svg" width="100%" alt="WordFlow"></a></td>
+</tr>
+</table>
+
+## Current Direction
 
 - Building production-ready Telegram tools with polished user experiences
 - Learning stronger AI-agent architecture and workflow orchestration
