@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/unesjami"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"></a>
-  <a href="https://t.me/unesjami2020"><img src="https://img.shields.io/badge/Telegram-Message_Me-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Message me on Telegram"></a>
+  <a href="https://t.me/unesjami"><img src="https://img.shields.io/badge/Telegram-Message_Me-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Message me on Telegram"></a>
   <a href="mailto:unesjami2020@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Send email"></a>
   <a href="https://github.com/unesjami?tab=followers"><img src="https://img.shields.io/github/followers/unesjami?style=for-the-badge&logo=github&label=Follow" alt="Follow on GitHub"></a>
   <a href="https://t.me/PostOptimizeBot"><img src="https://img.shields.io/badge/Telegram-Post_Optimizer-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Post Optimizer Bot"></a>
@@ -162,7 +162,7 @@ An English–Persian vocabulary trainer with flashcards, voice input, pronunciat
 I'm interested in AI automation, Telegram ecosystems, intelligent workflows, robotics, and practical digital products.
 
 <p align="center">
-  <a href="https://t.me/unesjami2020"><img src="https://img.shields.io/badge/Message_Me-Telegram-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Message Unes on Telegram"></a>
+  <a href="https://t.me/unesjami"><img src="https://img.shields.io/badge/Message_Me-Telegram-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Message Unes on Telegram"></a>
   <a href="mailto:unesjami2020@gmail.com"><img src="https://img.shields.io/badge/Start_a_Conversation-Email-22D3EE?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Unes"></a>
   <a href="https://www.linkedin.com/in/unesjami"><img src="https://img.shields.io/badge/Connect_on-LinkedIn-818CF8?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"></a>
   <a href="https://github.com/unesjami"><img src="https://img.shields.io/badge/Explore_My_Work-GitHub-181717?style=for-the-badge&logo=github" alt="Explore my work"></a>
