@@ -4,6 +4,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/unesjami"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"></a>
+  <a href="https://t.me/unesjami2020"><img src="https://img.shields.io/badge/Telegram-Message_Me-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Message me on Telegram"></a>
   <a href="mailto:unesjami2020@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Send email"></a>
   <a href="https://github.com/unesjami?tab=followers"><img src="https://img.shields.io/github/followers/unesjami?style=for-the-badge&logo=github&label=Follow" alt="Follow on GitHub"></a>
   <a href="https://t.me/PostOptimizeBot"><img src="https://img.shields.io/badge/Telegram-Post_Optimizer-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Post Optimizer Bot"></a>
@@ -129,11 +130,24 @@ An English–Persian vocabulary trainer with flashcards, voice input, pronunciat
 </tr>
 </table>
 
-## GitHub activity
+## ⚡ GitHub activity
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=unesjami&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Unes Jami GitHub statistics">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=unesjami&layout=compact&theme=tokyonight&hide_border=true" alt="Most used languages">
+  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=unesjami&theme=github_dark" alt="GitHub contribution overview">
+</p>
+
+<p align="center">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=unesjami&theme=github_dark" alt="GitHub statistics">
+  <img width="49%" src="https://streak-stats.demolab.com?user=unesjami&theme=github-dark-blue&hide_border=true&background=0D1117&ring=2F81F7&fire=58A6FF&currStreakLabel=58A6FF" alt="GitHub contribution streak">
+</p>
+
+<p align="center">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=unesjami&theme=github_dark" alt="Top languages by repository">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=unesjami&theme=github_dark" alt="Top languages by commit">
+</p>
+
+<p align="center">
+  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=unesjami&theme=github-compact&hide_border=true&bg_color=0D1117&color=8B949E&line=2F81F7&point=58A6FF&area=true&area_color=1F6FEB" alt="Contribution activity graph">
 </p>
 
 ## Current direction
@@ -148,6 +162,7 @@ An English–Persian vocabulary trainer with flashcards, voice input, pronunciat
 I'm interested in AI automation, Telegram ecosystems, intelligent workflows, robotics, and practical digital products.
 
 <p align="center">
+  <a href="https://t.me/unesjami2020"><img src="https://img.shields.io/badge/Message_Me-Telegram-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Message Unes on Telegram"></a>
   <a href="mailto:unesjami2020@gmail.com"><img src="https://img.shields.io/badge/Start_a_Conversation-Email-22D3EE?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Unes"></a>
   <a href="https://www.linkedin.com/in/unesjami"><img src="https://img.shields.io/badge/Connect_on-LinkedIn-818CF8?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"></a>
   <a href="https://github.com/unesjami"><img src="https://img.shields.io/badge/Explore_My_Work-GitHub-181717?style=for-the-badge&logo=github" alt="Explore my work"></a>
