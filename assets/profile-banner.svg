@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Unes Jami — AI Automation Engineer</title>
+  <desc id="desc">Futuristic technology banner with AI, automation, and robotics motifs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset=".48" stop-color="#0b1028"/>
+      <stop offset="1" stop-color="#14072b"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset=".5" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#38bdf8" stroke-opacity=".09"/>
+    </pattern>
+    <filter id="soft"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
+  <circle cx="1020" cy="60" r="220" fill="url(#glow)"/>
+  <circle cx="165" cy="250" r="170" fill="#8b5cf6" opacity=".09" filter="url(#soft)"/>
+  <g fill="none" stroke="url(#neon)" stroke-width="2" opacity=".55">
+    <path d="M60 68h110l22 22h105"/>
+    <path d="M930 222h105l24-24h82"/>
+    <path d="M74 232h96l28-28h80"/>
+    <path d="M930 76h84l28 28h92"/>
+    <circle cx="60" cy="68" r="5" fill="#22d3ee"/>
+    <circle cx="1140" cy="104" r="5" fill="#c084fc"/>
+    <circle cx="74" cy="232" r="5" fill="#818cf8"/>
+    <circle cx="1141" cy="198" r="5" fill="#22d3ee"/>
+  </g>
+  <g transform="translate(92 102)" fill="none" stroke="url(#neon)" stroke-width="4">
+    <rect x="0" y="0" width="78" height="78" rx="18"/>
+    <circle cx="25" cy="34" r="7" fill="#22d3ee" stroke="none"/>
+    <circle cx="53" cy="34" r="7" fill="#c084fc" stroke="none"/>
+    <path d="M21 57h36M39 0V-16M12 78v15M66 78v15M0 25h-14M78 25h14"/>
+  </g>
+  <text x="600" y="118" text-anchor="middle" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="48" font-weight="800" letter-spacing="6">UNES JAMI</text>
+  <text x="600" y="165" text-anchor="middle" fill="url(#neon)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="4">AI AUTOMATION ENGINEER</text>
+  <text x="600" y="211" text-anchor="middle" fill="#a5b4fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" letter-spacing="3">INTELLIGENT WORKFLOWS • TELEGRAM SYSTEMS • ROBOTICS</text>
+  <text x="600" y="260" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="14" letter-spacing="4">BUILD. AUTOMATE. EVOLVE.</text>
+</svg>
