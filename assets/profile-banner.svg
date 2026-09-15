@@ -1,73 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
   <title id="title">Unes Jami — AI Automation Engineer</title>
-  <desc id="desc">Minimal charcoal banner with animated blue network particles.</desc>
+  <desc id="desc">Dark animated network background with connected blue particles.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0d1117"/>
-      <stop offset="0.52" stop-color="#111820"/>
-      <stop offset="1" stop-color="#0d1117"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07151c"/>
+      <stop offset=".48" stop-color="#102c36"/>
+      <stop offset="1" stop-color="#0b1d26"/>
     </linearGradient>
-    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#30363d"/>
-      <stop offset="0.5" stop-color="#2f81f7"/>
-      <stop offset="1" stop-color="#30363d"/>
-    </linearGradient>
-    <radialGradient id="halo">
-      <stop offset="0" stop-color="#2f81f7" stop-opacity=".16"/>
-      <stop offset="1" stop-color="#2f81f7" stop-opacity="0"/>
+    <radialGradient id="centerGlow">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity=".11"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
     </radialGradient>
-    <filter id="glow"><feGaussianBlur stdDeviation="4"/></filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
   </defs>
 
-  <rect width="1200" height="270" rx="18" fill="url(#bg)"/>
-  <rect x="1" y="1" width="1198" height="268" rx="17" fill="none" stroke="url(#edge)" stroke-opacity=".72"/>
-  <ellipse cx="600" cy="135" rx="390" ry="160" fill="url(#halo)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#background)"/>
+  <ellipse cx="600" cy="145" rx="430" ry="210" fill="url(#centerGlow)"/>
 
-  <g fill="none" stroke="#2f81f7" stroke-width="1" stroke-opacity=".2">
-    <path d="M40 54L190 92L296 46L410 106"/>
-    <path d="M790 62L904 112L1030 60L1162 98"/>
-    <path d="M18 212L158 170L300 222L420 178"/>
-    <path d="M784 206L930 164L1058 218L1186 174"/>
+  <g fill="none" stroke="#22b8cf" stroke-width="1.2" stroke-opacity=".22">
+    <path d="M18 66L126 102L214 45L318 76L372 142L284 190L160 168L68 234"/>
+    <path d="M828 44L906 92L1014 66L1168 118L1082 184L956 152L874 230L1180 252"/>
+    <path d="M50 256L180 214L270 268L388 224"/>
+    <path d="M794 260L902 212L1014 270L1130 220"/>
   </g>
 
-  <g fill="#58a6ff">
-    <circle r="3" opacity=".45">
-      <animateMotion dur="8s" repeatCount="indefinite" path="M40 54L190 92L296 46L410 106"/>
-      <animate attributeName="opacity" values=".2;.85;.2" dur="3s" repeatCount="indefinite"/>
+  <g fill="#22d3ee">
+    <circle cx="18" cy="66" r="3" opacity=".6"><animate attributeName="opacity" values=".2;.9;.2" dur="3.7s" repeatCount="indefinite"/></circle>
+    <circle cx="126" cy="102" r="5" opacity=".75"><animate attributeName="r" values="4;7;4" dur="4.1s" repeatCount="indefinite"/></circle>
+    <circle cx="214" cy="45" r="3" opacity=".5"><animate attributeName="opacity" values=".25;.8;.25" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="318" cy="76" r="4" opacity=".7"><animate attributeName="r" values="3;6;3" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="372" cy="142" r="3" opacity=".55"/>
+    <circle cx="284" cy="190" r="5" opacity=".62"><animate attributeName="opacity" values=".3;.9;.3" dur="4.6s" repeatCount="indefinite"/></circle>
+    <circle cx="160" cy="168" r="3" opacity=".45"/>
+    <circle cx="68" cy="234" r="4" opacity=".65"><animate attributeName="r" values="3;6;3" dur="5.2s" repeatCount="indefinite"/></circle>
+
+    <circle cx="828" cy="44" r="4" opacity=".65"><animate attributeName="opacity" values=".25;.85;.25" dur="4.3s" repeatCount="indefinite"/></circle>
+    <circle cx="906" cy="92" r="3" opacity=".5"/>
+    <circle cx="1014" cy="66" r="5" opacity=".72"><animate attributeName="r" values="4;7;4" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1168" cy="118" r="3" opacity=".6"/>
+    <circle cx="1082" cy="184" r="5" opacity=".7"><animate attributeName="opacity" values=".3;.95;.3" dur="4.8s" repeatCount="indefinite"/></circle>
+    <circle cx="956" cy="152" r="3" opacity=".5"/>
+    <circle cx="874" cy="230" r="4" opacity=".65"><animate attributeName="r" values="3;6;3" dur="4.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1180" cy="252" r="3" opacity=".48"/>
+  </g>
+
+  <g fill="#67e8f9" filter="url(#softGlow)">
+    <circle r="3">
+      <animateMotion dur="8s" repeatCount="indefinite" path="M18 66L126 102L214 45L318 76L372 142L284 190L160 168L68 234"/>
     </circle>
-    <circle r="3" opacity=".45">
-      <animateMotion dur="10s" repeatCount="indefinite" path="M790 62L904 112L1030 60L1162 98"/>
-      <animate attributeName="opacity" values=".15;.75;.15" dur="4s" repeatCount="indefinite"/>
+    <circle r="3">
+      <animateMotion dur="10s" repeatCount="indefinite" path="M828 44L906 92L1014 66L1168 118L1082 184L956 152L874 230L1180 252"/>
     </circle>
-    <circle r="3" opacity=".45">
-      <animateMotion dur="9s" repeatCount="indefinite" path="M18 212L158 170L300 222L420 178"/>
-      <animate attributeName="opacity" values=".2;.8;.2" dur="3.5s" repeatCount="indefinite"/>
+    <circle r="2.5">
+      <animateMotion dur="7s" repeatCount="indefinite" path="M50 256L180 214L270 268L388 224"/>
     </circle>
-    <circle r="3" opacity=".45">
-      <animateMotion dur="11s" repeatCount="indefinite" path="M784 206L930 164L1058 218L1186 174"/>
-      <animate attributeName="opacity" values=".15;.7;.15" dur="4.5s" repeatCount="indefinite"/>
+    <circle r="2.5">
+      <animateMotion dur="9s" repeatCount="indefinite" path="M794 260L902 212L1014 270L1130 220"/>
     </circle>
   </g>
 
-  <g fill="#2f81f7">
-    <circle cx="190" cy="92" r="4"><animate attributeName="r" values="3;6;3" dur="3s" repeatCount="indefinite"/></circle>
-    <circle cx="1030" cy="60" r="4"><animate attributeName="r" values="4;7;4" dur="4s" repeatCount="indefinite"/></circle>
-    <circle cx="300" cy="222" r="4"><animate attributeName="r" values="3;6;3" dur="3.8s" repeatCount="indefinite"/></circle>
-    <circle cx="930" cy="164" r="4"><animate attributeName="r" values="4;7;4" dur="4.2s" repeatCount="indefinite"/></circle>
+  <g text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif">
+    <text x="600" y="126" fill="#f8fafc" font-size="52" font-weight="700" letter-spacing="1">Unes Jami</text>
+    <text x="600" y="174" fill="#38bdf8" font-size="24" font-weight="600" letter-spacing=".6">AI Automation Engineer</text>
+    <text x="600" y="215" fill="#d8e5ea" font-size="17" font-weight="400" letter-spacing=".25">Building Intelligent Workflows &amp; AI-Powered Digital Solutions</text>
   </g>
-
-  <g transform="translate(553 36)">
-    <rect width="94" height="54" rx="14" fill="#161b22" stroke="#30363d"/>
-    <circle cx="34" cy="25" r="5" fill="#58a6ff"/>
-    <circle cx="60" cy="25" r="5" fill="#8b949e"/>
-    <path d="M32 39h30M47 0v-10" stroke="#58a6ff" stroke-width="2" stroke-linecap="round"/>
-  </g>
-
-  <text x="600" y="135" text-anchor="middle" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="42" font-weight="700" letter-spacing="3">UNES JAMI</text>
-  <text x="600" y="176" text-anchor="middle" fill="#58a6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="600" letter-spacing="3">AI AUTOMATION ENGINEER</text>
-  <text x="600" y="211" text-anchor="middle" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" letter-spacing="2.5">AI WORKFLOWS  •  TELEGRAM SYSTEMS  •  ROBOTICS</text>
-  <rect x="480" y="236" width="240" height="2" rx="1" fill="#30363d"/>
-  <rect x="548" y="236" width="104" height="2" rx="1" fill="#2f81f7">
-    <animate attributeName="x" values="480;616;480" dur="5s" repeatCount="indefinite"/>
-  </rect>
 </svg>
