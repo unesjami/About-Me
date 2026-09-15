@@ -15,14 +15,6 @@
   <a href="https://github.com/unesjami"><img src="https://img.shields.io/badge/GitHub-0B1F3A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
 </p>
 
-<p align="center"><strong>Featured products</strong></p>
-
-<p align="center">
-  <a href="https://t.me/PostOptimizeBot"><img src="https://img.shields.io/badge/Post_Optimizer-Launch-168BFF?style=for-the-badge&logo=telegram&logoColor=white" alt="Launch Post Optimizer"></a>
-  <a href="https://unesjami.github.io/TimeOS/"><img src="https://img.shields.io/badge/TimeOS-Live-168BFF?style=for-the-badge&logo=githubpages&logoColor=white" alt="Open TimeOS"></a>
-  <a href="https://unesjami.github.io/Word-Update/"><img src="https://img.shields.io/badge/WordFlow-Live-168BFF?style=for-the-badge&logo=githubpages&logoColor=white" alt="Open WordFlow"></a>
-</p>
-
 ## About Me
 
 I'm **Unes Jami**, an AI Automation Engineer and Mechatronics student building practical systems where software, artificial intelligence, and hardware meet.
