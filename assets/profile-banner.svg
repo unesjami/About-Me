@@ -1,34 +1,51 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
   <title id="title">Unes Jami — AI Automation Engineer</title>
-  <desc id="desc">Minimal white banner with mirrored animated blue particle networks.</desc>
+  <desc id="desc">Minimal white banner with mirrored animated neural networks.</desc>
   <defs>
     <radialGradient id="glow">
       <stop offset="0" stop-color="#0ea5e9" stop-opacity=".14"/>
       <stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/>
     </radialGradient>
     <filter id="soft"><feGaussianBlur stdDeviation="2.5"/></filter>
-    <g id="network">
-      <g fill="none" stroke="#111827" stroke-width="1.1" stroke-linecap="round" stroke-opacity=".24">
-        <path d="M24 64 C82 26 118 108 178 84 S260 42 326 86 S396 154 344 190 S222 170 142 224 S70 254 26 268"/>
-        <path d="M46 238 C112 190 162 230 226 210 S310 224 388 262"/>
+    <filter id="nodeGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <g id="neural-network">
+      <g fill="none" stroke="#111827" stroke-width="1" stroke-linecap="round" stroke-opacity=".18">
+        <path d="M28 62 C78 62 74 48 124 48 S178 78 222 78 S280 112 332 112"/>
+        <path d="M28 62 C76 72 82 116 124 116 S176 78 222 78"/>
+        <path d="M28 150 C78 150 78 116 124 116 S174 150 222 150 S280 112 332 112"/>
+        <path d="M28 150 C78 150 78 184 124 184 S174 150 222 150 S280 188 332 188"/>
+        <path d="M28 238 C76 228 82 184 124 184 S176 222 222 222 S280 188 332 188"/>
+        <path d="M124 48 C168 60 176 138 222 150"/>
+        <path d="M124 116 C170 126 178 208 222 222"/>
+        <path d="M124 184 C170 172 178 92 222 78"/>
+        <path d="M124 252 C166 246 178 224 222 222"/>
+        <path d="M222 78 C270 78 284 150 344 150"/>
+        <path d="M222 150 C270 150 292 150 344 150"/>
+        <path d="M222 222 C270 222 284 150 344 150"/>
       </g>
-      <g fill="#0ea5e9">
-        <circle cx="24" cy="64" r="3"><animate attributeName="opacity" values=".25;1;.25" dur="4.2s" repeatCount="indefinite"/></circle>
-        <circle cx="118" cy="91" r="4.5"><animate attributeName="r" values="3.5;6;3.5" dur="4.8s" repeatCount="indefinite"/></circle>
-        <circle cx="178" cy="84" r="3"/>
-        <circle cx="252" cy="59" r="4"/>
-        <circle cx="326" cy="86" r="5"><animate attributeName="opacity" values=".35;1;.35" dur="5.1s" repeatCount="indefinite"/></circle>
-        <circle cx="382" cy="140" r="3"/>
-        <circle cx="344" cy="190" r="4.5"/>
-        <circle cx="258" cy="188" r="3"/>
-        <circle cx="142" cy="224" r="5"><animate attributeName="r" values="4;6.5;4" dur="5.4s" repeatCount="indefinite"/></circle>
-        <circle cx="70" cy="254" r="3"/>
-        <circle cx="226" cy="210" r="3.5"/>
-        <circle cx="388" cy="262" r="4"/>
+
+      <g fill="#0ea5e9" stroke="#ffffff" stroke-width="2">
+        <circle cx="28" cy="62" r="5"/><circle cx="28" cy="150" r="5"/><circle cx="28" cy="238" r="5"/>
+        <circle cx="124" cy="48" r="6"/><circle cx="124" cy="116" r="5"/><circle cx="124" cy="184" r="6"/><circle cx="124" cy="252" r="4.5"/>
+        <circle cx="222" cy="78" r="6"/><circle cx="222" cy="150" r="7"/><circle cx="222" cy="222" r="6"/>
+        <circle cx="332" cy="112" r="5"/><circle cx="332" cy="188" r="5"/>
+        <circle cx="344" cy="150" r="7" filter="url(#nodeGlow)">
+          <animate attributeName="r" values="6;9;6" dur="3.8s" repeatCount="indefinite"/>
+        </circle>
       </g>
+
       <g fill="#38bdf8" filter="url(#soft)">
-        <circle r="3"><animateMotion dur="10s" repeatCount="indefinite" path="M24 64 C82 26 118 108 178 84 S260 42 326 86 S396 154 344 190 S222 170 142 224 S70 254 26 268"/></circle>
-        <circle r="2.5"><animateMotion dur="8.5s" repeatCount="indefinite" path="M46 238 C112 190 162 230 226 210 S310 224 388 262"/></circle>
+        <circle r="3"><animateMotion dur="7.5s" repeatCount="indefinite" path="M28 62 C78 62 74 48 124 48 S178 78 222 78 S280 112 332 112"/></circle>
+        <circle r="3"><animateMotion dur="9s" repeatCount="indefinite" path="M28 150 C78 150 78 184 124 184 S174 150 222 150 S280 188 332 188"/></circle>
+        <circle r="2.5"><animateMotion dur="8.2s" repeatCount="indefinite" path="M28 238 C76 228 82 184 124 184 S176 222 222 222 S280 188 332 188"/></circle>
+      </g>
+
+      <g fill="none" stroke="#0ea5e9" stroke-opacity=".16">
+        <circle cx="344" cy="150" r="18"><animate attributeName="r" values="12;28" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values=".5;0" dur="3s" repeatCount="indefinite"/></circle>
       </g>
     </g>
   </defs>
@@ -37,8 +54,8 @@
   <rect x="1" y="1" width="1198" height="298" rx="17" fill="none" stroke="#111827" stroke-opacity=".12"/>
   <ellipse cx="600" cy="150" rx="370" ry="175" fill="url(#glow)"/>
 
-  <use href="#network"/>
-  <use href="#network" transform="translate(1200 0) scale(-1 1)"/>
+  <use href="#neural-network"/>
+  <use href="#neural-network" transform="translate(1200 0) scale(-1 1)"/>
 
   <g text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif">
     <text x="600" y="126" fill="#111827" font-size="53" font-weight="700">Unes Jami</text>
