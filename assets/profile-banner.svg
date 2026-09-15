@@ -1,69 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
   <title id="title">Unes Jami — AI Automation Engineer</title>
-  <desc id="desc">Dark animated network background with connected blue particles.</desc>
+  <desc id="desc">Minimal white banner with animated blue particles and curved black connections.</desc>
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#07151c"/>
-      <stop offset=".48" stop-color="#102c36"/>
-      <stop offset="1" stop-color="#0b1d26"/>
-    </linearGradient>
-    <radialGradient id="centerGlow">
-      <stop offset="0" stop-color="#22d3ee" stop-opacity=".11"/>
-      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#0ea5e9" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/>
     </radialGradient>
-    <filter id="softGlow">
-      <feGaussianBlur stdDeviation="3"/>
-    </filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="2.4"/></filter>
   </defs>
+  <rect width="1200" height="300" rx="18" fill="#ffffff"/>
+  <rect x="1" y="1" width="1198" height="298" rx="17" fill="none" stroke="#111827" stroke-opacity=".15"/>
+  <ellipse cx="600" cy="150" rx="390" ry="190" fill="url(#glow)"/>
 
-  <rect width="1200" height="300" rx="18" fill="url(#background)"/>
-  <ellipse cx="600" cy="145" rx="430" ry="210" fill="url(#centerGlow)"/>
-
-  <g fill="none" stroke="#22b8cf" stroke-width="1.2" stroke-opacity=".22">
-    <path d="M18 66L126 102L214 45L318 76L372 142L284 190L160 168L68 234"/>
-    <path d="M828 44L906 92L1014 66L1168 118L1082 184L956 152L874 230L1180 252"/>
-    <path d="M50 256L180 214L270 268L388 224"/>
-    <path d="M794 260L902 212L1014 270L1130 220"/>
+  <g fill="none" stroke="#111827" stroke-width="1.1" stroke-linecap="round" stroke-opacity=".22">
+    <path d="M22 62 C90 18 126 120 196 82 S286 38 354 92 S402 174 326 207 S190 165 102 238"/>
+    <path d="M846 72 C918 18 968 116 1038 77 S1128 64 1176 124 C1200 158 1132 176 1080 210 S966 180 884 240"/>
+    <path d="M18 264 C94 210 150 248 220 224 S304 240 390 274"/>
+    <path d="M810 270 C890 220 940 246 1010 222 S1106 230 1186 266"/>
   </g>
 
-  <g fill="#22d3ee">
-    <circle cx="18" cy="66" r="3" opacity=".6"><animate attributeName="opacity" values=".2;.9;.2" dur="3.7s" repeatCount="indefinite"/></circle>
-    <circle cx="126" cy="102" r="5" opacity=".75"><animate attributeName="r" values="4;7;4" dur="4.1s" repeatCount="indefinite"/></circle>
-    <circle cx="214" cy="45" r="3" opacity=".5"><animate attributeName="opacity" values=".25;.8;.25" dur="5s" repeatCount="indefinite"/></circle>
-    <circle cx="318" cy="76" r="4" opacity=".7"><animate attributeName="r" values="3;6;3" dur="3.4s" repeatCount="indefinite"/></circle>
-    <circle cx="372" cy="142" r="3" opacity=".55"/>
-    <circle cx="284" cy="190" r="5" opacity=".62"><animate attributeName="opacity" values=".3;.9;.3" dur="4.6s" repeatCount="indefinite"/></circle>
-    <circle cx="160" cy="168" r="3" opacity=".45"/>
-    <circle cx="68" cy="234" r="4" opacity=".65"><animate attributeName="r" values="3;6;3" dur="5.2s" repeatCount="indefinite"/></circle>
-
-    <circle cx="828" cy="44" r="4" opacity=".65"><animate attributeName="opacity" values=".25;.85;.25" dur="4.3s" repeatCount="indefinite"/></circle>
-    <circle cx="906" cy="92" r="3" opacity=".5"/>
-    <circle cx="1014" cy="66" r="5" opacity=".72"><animate attributeName="r" values="4;7;4" dur="3.8s" repeatCount="indefinite"/></circle>
-    <circle cx="1168" cy="118" r="3" opacity=".6"/>
-    <circle cx="1082" cy="184" r="5" opacity=".7"><animate attributeName="opacity" values=".3;.95;.3" dur="4.8s" repeatCount="indefinite"/></circle>
-    <circle cx="956" cy="152" r="3" opacity=".5"/>
-    <circle cx="874" cy="230" r="4" opacity=".65"><animate attributeName="r" values="3;6;3" dur="4.4s" repeatCount="indefinite"/></circle>
-    <circle cx="1180" cy="252" r="3" opacity=".48"/>
+  <g fill="#0ea5e9">
+    <circle cx="22" cy="62" r="3"><animate attributeName="opacity" values=".25;1;.25" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="126" cy="90" r="5"><animate attributeName="r" values="4;6.5;4" dur="4.8s" repeatCount="indefinite"/></circle>
+    <circle cx="196" cy="82" r="3.5"/><circle cx="278" cy="58" r="4"/>
+    <circle cx="354" cy="92" r="5"><animate attributeName="r" values="4;7;4" dur="5.1s" repeatCount="indefinite"/></circle>
+    <circle cx="384" cy="152" r="3"/><circle cx="326" cy="207" r="4.5"/>
+    <circle cx="220" cy="187" r="3.5"/><circle cx="102" cy="238" r="5"><animate attributeName="opacity" values=".3;1;.3" dur="5.4s" repeatCount="indefinite"/></circle>
+    <circle cx="846" cy="72" r="4"/><circle cx="934" cy="66" r="3"/>
+    <circle cx="1038" cy="77" r="5"><animate attributeName="r" values="4;7;4" dur="4.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1122" cy="86" r="3.5"/><circle cx="1176" cy="124" r="4.5"/>
+    <circle cx="1128" cy="174" r="3"/><circle cx="1080" cy="210" r="5"><animate attributeName="opacity" values=".3;1;.3" dur="4.9s" repeatCount="indefinite"/></circle>
+    <circle cx="984" cy="194" r="3.5"/><circle cx="884" cy="240" r="4.5"/>
   </g>
 
-  <g fill="#67e8f9" filter="url(#softGlow)">
-    <circle r="3">
-      <animateMotion dur="8s" repeatCount="indefinite" path="M18 66L126 102L214 45L318 76L372 142L284 190L160 168L68 234"/>
-    </circle>
-    <circle r="3">
-      <animateMotion dur="10s" repeatCount="indefinite" path="M828 44L906 92L1014 66L1168 118L1082 184L956 152L874 230L1180 252"/>
-    </circle>
-    <circle r="2.5">
-      <animateMotion dur="7s" repeatCount="indefinite" path="M50 256L180 214L270 268L388 224"/>
-    </circle>
-    <circle r="2.5">
-      <animateMotion dur="9s" repeatCount="indefinite" path="M794 260L902 212L1014 270L1130 220"/>
-    </circle>
+  <g fill="#38bdf8" filter="url(#soft)">
+    <circle r="3"><animateMotion dur="9s" repeatCount="indefinite" path="M22 62 C90 18 126 120 196 82 S286 38 354 92 S402 174 326 207 S190 165 102 238"/></circle>
+    <circle r="3"><animateMotion dur="11s" repeatCount="indefinite" path="M846 72 C918 18 968 116 1038 77 S1128 64 1176 124 C1200 158 1132 176 1080 210 S966 180 884 240"/></circle>
+    <circle r="2.5"><animateMotion dur="8s" repeatCount="indefinite" path="M18 264 C94 210 150 248 220 224 S304 240 390 274"/></circle>
+    <circle r="2.5"><animateMotion dur="10s" repeatCount="indefinite" path="M810 270 C890 220 940 246 1010 222 S1106 230 1186 266"/></circle>
   </g>
 
   <g text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif">
-    <text x="600" y="126" fill="#f8fafc" font-size="52" font-weight="700" letter-spacing="1">Unes Jami</text>
-    <text x="600" y="174" fill="#38bdf8" font-size="24" font-weight="600" letter-spacing=".6">AI Automation Engineer</text>
-    <text x="600" y="215" fill="#d8e5ea" font-size="17" font-weight="400" letter-spacing=".25">Building Intelligent Workflows &amp; AI-Powered Digital Solutions</text>
+    <text x="600" y="126" fill="#111827" font-size="53" font-weight="700">Unes Jami</text>
+    <text x="600" y="174" fill="#0284c7" font-size="24" font-weight="600">AI Automation Engineer</text>
+    <text x="600" y="215" fill="#4b5563" font-size="17">Building Intelligent Workflows &amp; AI-Powered Digital Solutions</text>
   </g>
 </svg>
