@@ -1,48 +1,73 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="title desc">
   <title id="title">Unes Jami — AI Automation Engineer</title>
-  <desc id="desc">Futuristic technology banner with AI, automation, and robotics motifs.</desc>
+  <desc id="desc">Minimal charcoal banner with animated blue network particles.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#050816"/>
-      <stop offset=".48" stop-color="#0b1028"/>
-      <stop offset="1" stop-color="#14072b"/>
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.52" stop-color="#111820"/>
+      <stop offset="1" stop-color="#0d1117"/>
     </linearGradient>
-    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#22d3ee"/>
-      <stop offset=".5" stop-color="#818cf8"/>
-      <stop offset="1" stop-color="#c084fc"/>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#30363d"/>
+      <stop offset="0.5" stop-color="#2f81f7"/>
+      <stop offset="1" stop-color="#30363d"/>
     </linearGradient>
-    <radialGradient id="glow">
-      <stop offset="0" stop-color="#22d3ee" stop-opacity=".25"/>
-      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#2f81f7" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#2f81f7" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
-      <path d="M34 0H0V34" fill="none" stroke="#38bdf8" stroke-opacity=".09"/>
-    </pattern>
-    <filter id="soft"><feGaussianBlur stdDeviation="8"/></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="4"/></filter>
   </defs>
-  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
-  <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
-  <circle cx="1020" cy="60" r="220" fill="url(#glow)"/>
-  <circle cx="165" cy="250" r="170" fill="#8b5cf6" opacity=".09" filter="url(#soft)"/>
-  <g fill="none" stroke="url(#neon)" stroke-width="2" opacity=".55">
-    <path d="M60 68h110l22 22h105"/>
-    <path d="M930 222h105l24-24h82"/>
-    <path d="M74 232h96l28-28h80"/>
-    <path d="M930 76h84l28 28h92"/>
-    <circle cx="60" cy="68" r="5" fill="#22d3ee"/>
-    <circle cx="1140" cy="104" r="5" fill="#c084fc"/>
-    <circle cx="74" cy="232" r="5" fill="#818cf8"/>
-    <circle cx="1141" cy="198" r="5" fill="#22d3ee"/>
+
+  <rect width="1200" height="270" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="268" rx="17" fill="none" stroke="url(#edge)" stroke-opacity=".72"/>
+  <ellipse cx="600" cy="135" rx="390" ry="160" fill="url(#halo)"/>
+
+  <g fill="none" stroke="#2f81f7" stroke-width="1" stroke-opacity=".2">
+    <path d="M40 54L190 92L296 46L410 106"/>
+    <path d="M790 62L904 112L1030 60L1162 98"/>
+    <path d="M18 212L158 170L300 222L420 178"/>
+    <path d="M784 206L930 164L1058 218L1186 174"/>
   </g>
-  <g transform="translate(92 102)" fill="none" stroke="url(#neon)" stroke-width="4">
-    <rect x="0" y="0" width="78" height="78" rx="18"/>
-    <circle cx="25" cy="34" r="7" fill="#22d3ee" stroke="none"/>
-    <circle cx="53" cy="34" r="7" fill="#c084fc" stroke="none"/>
-    <path d="M21 57h36M39 0V-16M12 78v15M66 78v15M0 25h-14M78 25h14"/>
+
+  <g fill="#58a6ff">
+    <circle r="3" opacity=".45">
+      <animateMotion dur="8s" repeatCount="indefinite" path="M40 54L190 92L296 46L410 106"/>
+      <animate attributeName="opacity" values=".2;.85;.2" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3" opacity=".45">
+      <animateMotion dur="10s" repeatCount="indefinite" path="M790 62L904 112L1030 60L1162 98"/>
+      <animate attributeName="opacity" values=".15;.75;.15" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3" opacity=".45">
+      <animateMotion dur="9s" repeatCount="indefinite" path="M18 212L158 170L300 222L420 178"/>
+      <animate attributeName="opacity" values=".2;.8;.2" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3" opacity=".45">
+      <animateMotion dur="11s" repeatCount="indefinite" path="M784 206L930 164L1058 218L1186 174"/>
+      <animate attributeName="opacity" values=".15;.7;.15" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
   </g>
-  <text x="600" y="118" text-anchor="middle" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="48" font-weight="800" letter-spacing="6">UNES JAMI</text>
-  <text x="600" y="165" text-anchor="middle" fill="url(#neon)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="4">AI AUTOMATION ENGINEER</text>
-  <text x="600" y="211" text-anchor="middle" fill="#a5b4fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" letter-spacing="3">INTELLIGENT WORKFLOWS • TELEGRAM SYSTEMS • ROBOTICS</text>
-  <text x="600" y="260" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="14" letter-spacing="4">BUILD. AUTOMATE. EVOLVE.</text>
+
+  <g fill="#2f81f7">
+    <circle cx="190" cy="92" r="4"><animate attributeName="r" values="3;6;3" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="1030" cy="60" r="4"><animate attributeName="r" values="4;7;4" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="222" r="4"><animate attributeName="r" values="3;6;3" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="930" cy="164" r="4"><animate attributeName="r" values="4;7;4" dur="4.2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g transform="translate(553 36)">
+    <rect width="94" height="54" rx="14" fill="#161b22" stroke="#30363d"/>
+    <circle cx="34" cy="25" r="5" fill="#58a6ff"/>
+    <circle cx="60" cy="25" r="5" fill="#8b949e"/>
+    <path d="M32 39h30M47 0v-10" stroke="#58a6ff" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <text x="600" y="135" text-anchor="middle" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="42" font-weight="700" letter-spacing="3">UNES JAMI</text>
+  <text x="600" y="176" text-anchor="middle" fill="#58a6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="600" letter-spacing="3">AI AUTOMATION ENGINEER</text>
+  <text x="600" y="211" text-anchor="middle" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" letter-spacing="2.5">AI WORKFLOWS  •  TELEGRAM SYSTEMS  •  ROBOTICS</text>
+  <rect x="480" y="236" width="240" height="2" rx="1" fill="#30363d"/>
+  <rect x="548" y="236" width="104" height="2" rx="1" fill="#2f81f7">
+    <animate attributeName="x" values="480;616;480" dur="5s" repeatCount="indefinite"/>
+  </rect>
 </svg>
